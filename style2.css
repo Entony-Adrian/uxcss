@@ -1,0 +1,87 @@
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box; 
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 2;
+    background-color: rgb(255, 255, 255);
+
+
+
+}
+
+nav{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    background-color: #000000aa;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type:none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    margin: 0 20px;
+}
+
+p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 19px;
+    padding: 20%;
+    transition: color 0.8;
+}
+
+nav ul li a:hover {
+    color: #ff0000;
+    font-size: 22px;
+}
+section:not(#home){
+    padding: 120px 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items:start;
+    height: 100vh;
+}
+section:not(#Roupa){
+    padding: 120px 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.cta-button{
+    margin-top: 30px;
+    background-color: #000000;
+    color: rgb(255, 0, 0);
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgb(136, 136, 136);
+}
